@@ -1,6 +1,6 @@
 {
   "name": "jest-mdx-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jest transformer that wraps mdx-js/mx webpack loader",
   "main": "index.js",
   "scripts": {},
