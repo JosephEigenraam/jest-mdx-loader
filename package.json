@@ -1,0 +1,26 @@
+{
+  "name": "jest-mdx-loader",
+  "version": "0.1.0",
+  "description": "Jest transformer that wraps mdx-js/mx webpack loader",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephConradBlack/jest-mdx-loader.git"
+  },
+  "keywords": [
+    "jest",
+    "mdx"
+  ],
+  "devDependencies": {
+    "@mdx-js/loader": "^0.15.0",
+    "@mdx-js/mdx": "^0.15.0",
+    "babel-core": "^6.26.3"
+  },
+  "author": "Joseph Black <josephconradblack@gmail.com> (https://josephconradblack.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephConradBlack/jest-mdx-loader/issues"
+  },
+  "homepage": "https://github.com/JosephConradBlack/jest-mdx-loader#readme"
+}
