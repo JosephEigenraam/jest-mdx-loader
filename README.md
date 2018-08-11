@@ -30,6 +30,8 @@ If you need to perform any additional pre-processing prior to parsing with mdx y
 ```js
 // src/my-custom-jest-mdx-loader.js
 
+const createTransformer = require("jest-mdx-loader/src/createTransformer");
+
 preMdxParseCallback = function(src) {
   var modifiedSrc = src;
 
