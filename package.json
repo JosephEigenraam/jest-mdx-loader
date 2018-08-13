@@ -12,7 +12,7 @@
     "jest",
     "mdx"
   ],
-  "devDependencies": {
+  "peerDependencies": {
     "@mdx-js/loader": "^0.15.0",
     "@mdx-js/mdx": "^0.15.0",
     "babel-core": "^6.26.3"
