@@ -14,7 +14,7 @@ createTransformer = function(preMdxParseCallback) {
 
     // Inject React and MDXTag imports
     var injectedJSX =
-      "import React from 'react'; import MDXTag from '@mdx-js/tag/dist/mdx-tag';" +
+      "import React from 'react'; import { MDXTag } from '@mdx-js/tag';" +
       rawJSX;
 
     // Transform ES6 with babel
