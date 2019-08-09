@@ -1,5 +1,5 @@
 var mdx = require("@mdx-js/mdx");
-var babel = require("babel-core");
+var babel = require("@babel/core");
 
 createTransformer = function(preMdxParseCallback) {
   return function(src, filename, config, options) {
@@ -19,12 +19,8 @@ createTransformer = function(preMdxParseCallback) {
 
     // Transform ES6 with babel
     var babelRes = babel.transform(injectedJSX, {
-      presets: ["env", "react"],
-      plugins: [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "react-hot-loader/babel"
-      ]
+      presets: ["@babel/preset-env", "@babel/preset-react"],
+      plugins: ["@babel/plugin-proposal-object-rest-spread"]
     }).code;
 
     return babelRes;
