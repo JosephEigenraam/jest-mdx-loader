@@ -13,14 +13,20 @@
     "mdx"
   ],
   "peerDependencies": {
-    "@mdx-js/loader": "^0.15.0",
-    "@mdx-js/mdx": "^0.15.0",
-    "babel-core": "^6.26.3"
+    "@babel/core": "*",
+    "@mdx-js/loader": "*",
+    "@mdx-js/mdx": "*"
   },
   "author": "Joseph Black <josephconradblack@gmail.com> (https://josephconradblack.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JosephConradBlack/jest-mdx-loader/issues"
   },
-  "homepage": "https://github.com/JosephConradBlack/jest-mdx-loader#readme"
+  "homepage": "https://github.com/JosephConradBlack/jest-mdx-loader#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0"
+  }
 }
